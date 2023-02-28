@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" <!---href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"-->
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(13, 42, 230, 0.964);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            background-color: rgb(227, 35, 25);
+        }
+
+        .title {
+            color: rgb(245, 196, 196);
+            font-size: 18px;
+        }
+
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: rgba(222, 226, 204, 0.778);
+            background-color: rgb(25, 81, 221);
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        button:hover,
+        a:hover {
+            opacity: 0.7;
+        }
+    /*Mobile Responsiveness*/
+    @media (max-width: 375px) {
+        .card{
+            width: 80%;
+            place-content: center;
+            line-height: 395px;
+            align-content: center;
+        }
+        body {
+            width:395px;
+            height: 300px;
+            place-items: center;
+            align-content: center;
+        }
+    }
+
+    </style>
+</head>
+
+<body style="background-color: rgba(245, 212, 212, 0.364);">
+    <h2 style="text-align:center">User Profile Card</h2>
+    <div class="card"> <img src="/Tgirl.JPG" alt="Treasure" style="width:50%">
+        <h1 style="font-size:27px;">Treasure Ojeamiren</h1>
+        <p class="title">Undergraduate of <br> Production Engineering</p>
+        <p style="color:rgba(0, 0, 0, 0.947); font-weight: 400;font-size: medium; " >Pretend Frontend Developer</p>
+        <div style="margin: 24px 0;"> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i
+                    class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i
+                    class="fa fa-facebook"></i></a> </div>
+        <p><button>Contact: <br> 07081570085 <br>08132492692 <br>ojeamirentreasureeghe@gmail.com</button></p>
+    </div>
+</body>
+
+</html>
